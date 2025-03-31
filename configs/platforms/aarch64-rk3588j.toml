@@ -75,4 +75,4 @@ psci-method = "smc" # str
 #     compatible = "arm,pl031\0arm,primecell";
 # };
 # RTC (PL031) Address
-rtc-paddr = 0x901_0000          # uint
+# rtc-paddr = 0x901_0000          # uint

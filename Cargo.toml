@@ -1,3 +1,10 @@
+[patch."https://github.com/arceos-hypervisor/arceos.git"]
+axstd = { path = "../arceos/ulib/axstd" }
+
+[patch."https://github.com/arceos-hypervisor/axvm.git"]
+axvm = { path = "../crates/axvm" }
+
+
 [profile.release]
 lto = true
 

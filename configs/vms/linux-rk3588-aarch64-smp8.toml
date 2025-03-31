@@ -8,9 +8,9 @@ name = "linux"
 # Virtualization type.
 vm_type = 1
 # The number of virtual CPUs.
-cpu_num = 1
+cpu_num = 8
 # Guest vm physical cpu sets.
-phys_cpu_sets = [1]
+phys_cpu_sets = [1, 2, 4, 8, 16, 32, 64, 128]
 
 #
 # Vm kernel configs
@@ -28,7 +28,7 @@ image_location = "memory"
 # The file path of the kernel image.
 kernel_path = "/mnt/cicv/xh/arceos-hypervisor/rk3588_port/linux-aarch64.bin"
 # The file path of the device tree blob (DTB).
-dtb_path = "/mnt/cicv/xh/arceos-hypervisor/rk3588_port/rk3588-smp1.dtb"
+dtb_path = "/mnt/cicv/xh/arceos-hypervisor/rk3588_port/rk3588-smp8.dtb"
 
 # load from file system.
 # image_location = "fs".
