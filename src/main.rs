@@ -11,6 +11,7 @@ extern crate axstd as std;
 mod hal;
 mod task;
 mod vmm;
+mod utils;
 
 #[unsafe(no_mangle)]
 fn main() {

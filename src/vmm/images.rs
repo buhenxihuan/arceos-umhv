@@ -5,7 +5,7 @@ use axvm::config::AxVMCrateConfig;
 
 use crate::vmm::VMRef;
 #[cfg(target_arch = "aarch64")]
-use crate::vmm::cache::cache_clean_invalidate_d;
+use crate::utils::cache::cache_clean_invalidate_d;
 use crate::vmm::config::config;
 
 /// Loads the VM image files.
