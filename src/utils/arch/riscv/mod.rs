@@ -1,5 +1,5 @@
 /// Cache-related operations
-mod cache {
+pub mod cache {
     /// Invalidate the data cache.
     pub unsafe fn cache_invalidate_d(start: usize, len: usize) {
         // Dummy implementation
